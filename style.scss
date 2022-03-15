@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn {
+  margin-top: 40vh;
+  width: 100vw;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  &__bg {
+    width: 15rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 3rem;
+  }
+}
+
+.bgcolor--orange {
+  background: linear-gradient(30deg, #ff9c5b, #ffc260, #fcff55);
+}
+.bgcolor--green {
+  background: linear-gradient(30deg, #7cf57c, #f6f5ae, #fac0ce);
+}
+.bgcolor--purple {
+  background: linear-gradient(30deg, #49eaff, #c4a0ff, #e658ff);
+}
