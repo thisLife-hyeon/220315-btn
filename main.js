@@ -5,7 +5,9 @@ const btn3 = document.querySelector(".btn__bg--con3");
 const colors = ["bgcolor--orange", "bgcolor--green", "bgcolor--purple"];
 
 function resetColor() {
-  document.body.classList.remove(colors[(0, 1, 2, 3)]);
+  document.body.classList.remove(colors[0]);
+  document.body.classList.remove(colors[1]);
+  document.body.classList.remove(colors[2]);
   btns.forEach((btn) => {
     btn.addEventListener("click, resetColor");
   });
