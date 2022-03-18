@@ -29,7 +29,7 @@ body {
 
 .btn {
   width: 100vw;
-  height: 20rem;
+  height: 24rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,5 +63,10 @@ body {
 
 .bgcolor--purple {
   background: linear-gradient(30deg, #49eaff, #c4a0ff, #e658ff);
+}
+
+.bgcolor--plant {
+  background-image: url(img/1.jpg);
+  background-size: contain;
 }
 /*# sourceMappingURL=style.css.map */
