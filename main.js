@@ -1,8 +1,8 @@
-const btns = document.querySelectorAll(".btn__bg");
+const btns = document.querySelectorAll("btn__bg");
 const btn1 = document.querySelector(".btn__bg--con1");
 const btn2 = document.querySelector(".btn__bg--con2");
 const btn3 = document.querySelector(".btn__bg--con3");
-const colors = [".bgcolor--orange", ".bgcolor--green", ".bgcolor--purple"];
+const colors = ["bgcolor--orange", "bgcolor--green", "bgcolor--purple"];
 
 function resetColor() {
   document.body.classList.remove(colors[0]);
