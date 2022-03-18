@@ -9,7 +9,7 @@ function resetColor() {
   document.body.classList.remove(colors[1]);
   document.body.classList.remove(colors[2]);
   btns.forEach((btn) => {
-    btn.addEventListener("click, resetColor");
+    btn.addEventListener("click", resetColor);
   });
 }
 
