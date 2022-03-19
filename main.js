@@ -1,4 +1,3 @@
-const btns = document.querySelectorAll("btn__bg");
 const btn1 = document.querySelector(".btn__bg--con1");
 const btn2 = document.querySelector(".btn__bg--con2");
 const btn3 = document.querySelector(".btn__bg--con3");
@@ -7,9 +6,6 @@ const colors = ["bgcolor--orange", "bgcolor--green", "bgcolor--purple", "bgcolor
 
 function resetColor() {
   document.body.classList.remove(colors[0], colors[1], colors[2], colors[3]);
-  btns.forEach((btn) => {
-    btn.addEventListener("click", resetColor);
-  });
 }
 
 function onBtn1() {
